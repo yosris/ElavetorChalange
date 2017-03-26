@@ -1,0 +1,8 @@
+﻿.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flex-item {
+    margin: 10px;
+}

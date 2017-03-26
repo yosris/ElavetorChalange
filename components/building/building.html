@@ -1,0 +1,8 @@
+﻿<div class="flex-container">
+    <div class="flex-item">
+        <floor floorNumber="{{floor.number}}" ng-repeat="floor in floors | orderBy:'number':true track by $index"></floor>
+    </div>
+    <div class="flex-item">
+        <lift ng-repeat="lft in lifts track by $index" liftData="lft"></lift>
+    </div>
+</div>

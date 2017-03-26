@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="libs/jquery-1.12.4.min.js"></script>
+    <script src="libs/jquery-ui-1.12.1.min.js"></script>
+    <script src="libs/angular.min.js"></script>
+    <link href="content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <link href="content/themes/base/slider.css" rel="stylesheet" />
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/main.controller.js"></script>
+
+    <script src="components/lift/lift.directive.js"></script>
+    <link href="components/lift/lift.css" rel="stylesheet" />
+
+    <script src="components/floor/floor.directive.js"></script>
+    <link href="components/floor/floor.css" rel="stylesheet" />
+
+    <script src="components/building/building.directive.js"></script>
+    <link href="content/general.css" rel="stylesheet" />
+
+    <script src="services/lift.service.js"></script>
+    
+</head>
+
+<body ng-app="elev-chalange">
+    <div ng-controller="MainController">
+
+        <building numberOfFloors="10" numberOfLifts="3" buildingId="A"></building>
+
+       <!-- <building numberOfFloors="9" numberOfLifts="1" buildingId="B"></building>-->
+    </div>
+</body>
+</html>

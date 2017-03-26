@@ -1,0 +1,22 @@
+﻿.ui-slider-vertical .ui-slider-handle {
+    background: white url('images/elv.png') no-repeat 50% 50%;
+    background-size: cover;
+    height:90px;
+    width:90px;
+    margin-bottom: -2.6em;
+}
+
+.ui-widget.ui-widget-content{
+    border:none;
+}
+
+.ui-widget-header{
+    background:none;
+}
+
+
+.lift-slider-vertical{
+    height:90%;
+    float:right;
+    margin:45px;
+}
