@@ -5,6 +5,7 @@ angular.module('elev-chalange')
 	    this.callersArr = [];
 	    this.liftsArr = [];
 
+        // init 
 	    function init(lifts) {
 	        this.liftsArr = lifts;
 	        this.callersArr = [];
